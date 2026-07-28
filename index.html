@@ -1,260 +1,29 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<nav class="navbar">
 
-<title>SK Adventures & Tours</title>
+<img src="SK.png" alt="SK Adventures Logo" class="logo">
 
-<style>
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:Arial, sans-serif;
-}
+<h2>SK Adventures & Tours</h2>
 
-body{
-    background:#0b0b0b;
-    color:white;
-}
+</nav>
 
-/* HERO */
-.hero{
-    height:100vh;
-    background:
-    linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.8)),
-    url("https://images.unsplash.com/photo-1464822759023-fed622ff2c3b");
-    background-size:cover;
-    background-position:center;
+.navbar{
+    position:absolute;
+    top:0;
+    width:100%;
+    padding:20px 10%;
     display:flex;
     align-items:center;
-    justify-content:center;
-    text-align:center;
-}
-
-.hero h1{
-    font-size:55px;
-    color:#d4af37;
-}
-
-.hero p{
-    font-size:24px;
-    margin:20px 0;
-}
-
-.btn{
-    display:inline-block;
-    padding:14px 30px;
-    background:#1faa59;
-    color:white;
-    text-decoration:none;
-    border-radius:30px;
-    font-weight:bold;
-}
-
-
-/* SECTIONS */
-section{
-    padding:60px 10%;
-    text-align:center;
-}
-
-h2{
-    color:#d4af37;
-    font-size:35px;
-    margin-bottom:25px;
-}
-
-
-/* CARDS */
-.cards{
-    display:flex;
     gap:20px;
-    flex-wrap:wrap;
-    justify-content:center;
+    z-index:10;
 }
 
-.card{
-    background:#161616;
-    padding:25px;
-    width:250px;
-    border-radius:15px;
-    border:1px solid #333;
+.logo{
+    width:80px;
+    height:80px;
+    object-fit:contain;
 }
 
-.card h3{
-    color:#1faa59;
-    margin-bottom:10px;
+.navbar h2{
+    color:#d4af37;
+    font-size:25px;
 }
-
-
-/* CONTACT */
-.contact a{
-    color:#1faa59;
-    text-decoration:none;
-    font-size:20px;
-}
-
-
-/* FOOTER */
-footer{
-    background:#000;
-    padding:20px;
-    text-align:center;
-    color:#aaa;
-}
-
-</style>
-
-</head>
-
-
-<body>
-
-
-<div class="hero">
-
-<div>
-
-<h1>SK Adventures & Tours</h1>
-
-<p>Explore Beyond Limits 🏔️</p>
-
-<p>
-Trekking • Adventure • Travel Experiences
-</p>
-
-<br>
-
-<a class="btn" href="https://wa.me/918454990519">
-Book Your Adventure
-</a>
-
-</div>
-
-</div>
-
-
-
-<section>
-
-<h2>About Us</h2>
-
-<p>
-SK Adventures & Tours creates unforgettable trekking and travel experiences
-with safety, passion and adventure.
-</p>
-
-</section>
-
-
-
-<section>
-
-<h2>Popular Treks</h2>
-
-
-<div class="cards">
-
-
-<div class="card">
-<h3>Rajgad Fort Trek</h3>
-<p>Experience history and mountain beauty.</p>
-</div>
-
-
-<div class="card">
-<h3>Harishchandragad Trek</h3>
-<p>Explore nature and breathtaking views.</p>
-</div>
-
-
-<div class="card">
-<h3>Kalsubai Peak Trek</h3>
-<p>Conquer Maharashtra's highest peak.</p>
-</div>
-
-
-<div class="card">
-<h3>Andharban Trek</h3>
-<p>Walk through the magical forest trail.</p>
-</div>
-
-
-</div>
-
-</section>
-
-
-
-
-<section>
-
-<h2>Tour Packages</h2>
-
-
-<div class="cards">
-
-
-<div class="card">
-<h3>Konkan</h3>
-<p>Beaches, forts and coastal adventures.</p>
-</div>
-
-
-<div class="card">
-<h3>Goa</h3>
-<p>Fun filled travel experiences.</p>
-</div>
-
-
-<div class="card">
-<h3>Kashmir</h3>
-<p>Paradise mountains and valleys.</p>
-</div>
-
-
-<div class="card">
-<h3>Ladakh</h3>
-<p>High altitude adventure journey.</p>
-</div>
-
-
-</div>
-
-</section>
-
-
-
-
-<section class="contact">
-
-<h2>Contact Us</h2>
-
-<p>📱 WhatsApp</p>
-
-<a href="https://wa.me/918454990519">
-+91 8454990519
-</a>
-
-<br><br>
-
-<p>Follow our adventures on Instagram</p>
-
-</section>
-
-
-
-
-<footer>
-
-© 2026 SK Adventures & Tours  
-<br>
-Explore • Experience • Adventure
-
-</footer>
-
-
-</body>
-</html>
