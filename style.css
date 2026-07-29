@@ -548,3 +548,31 @@ footer{
 
 
 }
+/* Premium Gallery */
+
+.gallery-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+    margin-bottom:40px;
+}
+
+.gallery-grid img{
+    width:100%;
+    height:250px;
+    object-fit:cover;
+    border-radius:15px;
+    transition:0.4s;
+    cursor:pointer;
+}
+
+.gallery-grid img:hover{
+    transform:scale(1.05);
+}
+
+.gallery-title{
+    color:#00e6a8;
+    text-align:center;
+    margin:35px 0 20px;
+    font-size:24px;
+}
